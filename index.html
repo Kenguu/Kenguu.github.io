@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--ICONS TO USE FOR WESITE-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Personal Portfolio Webpage - Kenny Nguyen</title>
+</head>
+<body>
+    <!--Start of header sectioon-->
+    <header class="header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav_logo">Kengu</a>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills & Resume</a></li>
+                    <li class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                    <li class="nav_item"><img id="dark_light_icon" class="nav_link" src="images/dark-mode-icons/moon-regular-24.png" onmouseover="this.src='images/dark-mode-icons/moon-solid-24.png';" onmouseout="this.src='images/dark-mode-icons/moon-regular-24.png';" onclick="darkLightFunction();"></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!--End of header section-->
+    <main class="1-main">
+        <!--        HOME        -->
+        <div class="home_container">
+            <section class="home bd-grid" id="home">
+                <div class="home_data">
+                    <h1 class="home_title">
+                        Hi! I go by <span class="home_title-color">Kengu</span>, <br> an aspiring Software Developer.
+                    </h1>
+                    <a href="#about" class="button">Learn more about me &#8595;</a>
+                </div>
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/kenny-nguyen-cs" class="home_social-icon" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/Kenguu" class="home_social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto: knytnguyen@gmail.com" class="home_social-icon" target="_blank"><i class='bx bx-mail-send'></i></a>
+                </div>
+                <div class="home_img">
+                    <img src="images/website_design_art.png" alt="home_image">
+                </div>
+            </section>
+        </div>
+        <div class="custom-shape-divider-top-1631953625">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <!--        ABOUT ME        -->
+        <div class="about_main_container">
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about_container bd-grid">
+                    <div class="about_img">
+                        <img src="images/profile_image/profileImage.jpeg" alt="profile_image">
+                    </div>
+                    <div class="about_info">
+                        <h2 class="about_subtitle">A little background...</h2>
+                        <p>Hello there, thanks for visiting my website! My name is Kenny Nguyen and I am currently a second year student majoring in Computer Science at the University of California, Riverside. My current focus is on front-end web development as I love the process of designing and creating user-friendly interfaces to produce responsive websites that strive to provide a better and more fulfilling experience for users.
+                        <br><br>While front-end development is my current focus, I also have a great interest in back-end development as I continue to gain exposure to my C++ courses at university. As a fervent learner and someone who is always willing to learn new things, face new challenges, and solve problems, back-end development and working with servers, APIs, and databases is something that I would love to pursue.
+                        </p>
+                    </div>
+                </div>
+                <div class="linkedin_section">
+                    <a href="https://www.linkedin.com/in/kenny-nguyen-cs" class="linkedin_button button" target="_blank">View My LinkedIn</a>
+                </div>
+            </section>
+        </div>
+        <!--        SKILLS & RESUME        -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills & Resume</h2>
+            <div class="skills_container bd-grid">
+                <div class="skill_part">
+                    <img src="images/skills_logos_and_icons/c-plus-plus-logo-24.png">
+                    <h1 class="skill_name">C++</h1>
+                    <p class="skill_description">C++ is the programming language that I am most proficient in as all of the coding classes I’ve taken at UCR thus far have used C++ to work with different data structures and implement several significant algorithms to handle various data sources.</p>
+                </div>
+                <div class="skill_part">
+                    <img src="images/skills_logos_and_icons/javascript-logo-24.png">
+                    <h1 class="skill_name">JavaScript</h1>
+                    <p class="skill_description">JavaScript is the programming language I am second-most proficient in. I am currently in the process of learning different JavaScript frameworks and libraries such as React and Bootstrap to improve the interactivity of my Web pages.</p>
+                </div>
+                <div class="skill_part">
+                    <img src="images/skills_logos_and_icons/html5-logo-24.png">
+                    <h1 class="skill_name">HTML/CSS</h1>
+                    <p class="skill_description">I am comfortable creating fully responsive websites using HTML/CSS. I’ve also completed freeCodeCamp’s Responsive Web Design certification course which contains 300 hours of material to teach fundamental HTML/CSS topics. </p>
+                </div>
+                <div class="skill_part">
+                    <img src="images/skills_logos_and_icons/code-block-regular-24.png">
+                    <h1 class="skill_name">Development</h1>
+                    <p class="skill_description">I have 2+ years of experience with planning, designing, and programming various smaller apps and websites, things that I hope to expand on soon. Software development is something that I am passionate about and striving to improve in.</p>
+                </div>
+            </div>
+            <div class="resume_section">
+                <a href="pdf/Resume - Kenny Nguyen.pdf" class="resume_button button" target="_blank">View My Resume</a>
+            </div>
+        </section>
+        <!--        PORTFOLIO        -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio_container bd-grid">
+                <div class="portfolio_work">
+                    <img src="images/portfolio_logos_and_icons/typingroyale_icon.png" class="portfolio_img">
+                    <h2 class="portfolio_name">Typing Royale - Cutie Hack 2020</h2>
+                    <div class="portfolio_access">
+                        <p class="portfolio_description">Typing Royale is the user-interactive typing game that my friends and I created to place 2nd overall in UCR’s 12-hour, beginner-oriented hackathon out of 500+ participants. We had to learn how to optimize and use a game engine with no prior experience in this period while programming in a dynamic, fast-paced environment. While we faced many hurdles along the way, we gained a lot of valuable insight into designing the back-end of games and how to produce a well-developed application under pressure.
+                        <br>
+                        <br>
+                        <span class="portfolio_description_bold">Programming Language:</span> GDScript (“a high-level, dynamically typed programming language which is syntactically similar to Python”)
+                        </p>
+                        <a href="https://github.com/e1c0s4n01d/CutieHack2020" class="portfolio_button button" target="_blank">GitHub Repo</a>
+                        <a href="https://devpost.com/software/typing-royale" class="portfolio_button button" target="_blank">Devpost</a>
+                    </div>
+                </div>
+                <div class="portfolio_work">
+                    <img src="images/portfolio_logos_and_icons/codepen_icon_512x512.png" class="portfolio_img">
+                    <h2 class="portfolio_name">CodePen Profile</h2>
+                    <div class="portfolio_access">
+                        <p class="portfolio_description">My Codepen account features some of the many responsive websites that I created to fulfill the requirements for freeCodeCamp’s Responsive Web Design certification. Feel free to check out my websites below! I am always trying to find ways to improve my web development skills and am in the process of learning more JavaScript frameworks to enhance the quality and experience of my websites’ interactivity. 
+                        <br>
+                        <br>
+                        <span class="portfolio_description_bold">Programming Languages & Technologies:</span> JavaScript, HTML/CSS
+                        </p>
+                        <a href="https://codepen.io/Kengu" class="portfolio_button button" target="_blank" >Visit CodePen</a>
+                    </div>
+                </div>
+                <div class="portfolio_work">
+                    <img src="images/portfolio_logos_and_icons/fcc_secondary_small.png" class="portfolio_img">
+                    <h2 class="portfolio_name">freeCodeCamp Profile</h2>
+                    <div class="portfolio_access">
+                        <p class="portfolio_description">I have completed freeCodeCamp's Responsive Web Design certification and am in the process of completing a JavaScript Algorithms and Data Structures certification. The courses on freeCodeCamp typically comprise of 300 hours worth of material each which seek to teach the fundamentals of various coding topics. Feel free to visit my freeCodeCamp profile to verify any of the certifications I’ve completed thus far or am in the process of completing.</p>
+                        <a href="https://www.freecodecamp.org/fcc467bc79d-78c5-417e-bf7c-65eda44faee8" class="portfolio_button button" target="_blank">Visit FCC Profile</a>
+                    </div>
+                </div>
+                <div class="portfolio_work">
+                    <img src="images/portfolio_logos_and_icons/gitHub_logo.png" class="portfolio_img">
+                    <h2 class="portfolio_name">GitHub</h2>
+                    <div class="portfolio_access">
+                        <p class="portfolio_description">GitHub will be the place where I will be creating more repositories to showcase the many projects that I have in mind. For now, my GitHub is a work in progress but I am looking forward to creating more projects to showcase on there in the future!</p>
+                        <a href="https://github.com/Kenguu" class="portfolio_button button" target="_blank">Visit GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        CONTACT        -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact_container bd-grid">
+                <p id="contact_about">Note: the form for this website is currently a work in progress so any submission will be directed to freeCodeCamp's static page. To contact me for any questions, suggestions, or business inquiries, please send me an email at: <a id="contact_email" href="mailto: knytnguyen@gmail.com">knytnguyen@gmail.com</a>
+                </p>
+                <form action="https://www.freecodecamp.com/email-submit)" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input" required>
+                    <input type="mail" placeholder="Email (optional)" class="contact_input">
+                    <textarea name="" placeholder="Enter your message here..." id="" cols="0" rows = "10" class="contact_input" required></textarea>
+                    <input type="submit" value="Submit" class="contact_button button">
+                </form>
+            </div>
+        </section>
+        <!--        FOOTER      -->
+        <footer class="footer">
+            <p class="footer_title">Kengu</p>
+            <p class="footer_title-2">Feel free to check out some of my social medias below!</p>
+            <div class="footer_social">
+                <a href="https://www.facebook.com/thisiskengu/" class="footer_icon" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/_kengu/" class="footer_icon" target="_blank"><i class='bx bxl-instagram' ></a></i></a>
+                <a href="https://open.spotify.com/user/ikady8kd449if1g6hm5dj90id?si=2bab82e198f34b37" class="footer_icon" target="_blank"><i class='bx bxl-spotify'></i></a>
+            </div>
+            <p>&#169; 2021 copyright all rights reserved</p>
+        </footer>
+    </main>
+    <!--Main JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
