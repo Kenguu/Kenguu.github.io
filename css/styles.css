@@ -1,6 +1,7 @@
 /*      GOOGLE FONTS        */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*      VARIABLE CSS        */
 :root {
@@ -205,8 +206,9 @@ img {
 .nav_logo {
     color: var(--first-color);
     font-weight: bold;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Pacifico', cursive;
     transition: .5s;
+    font-size: 1.4em;
 }
 
 .nav_toggle {
