@@ -466,7 +466,7 @@ img {
 }
 
 .portfolio_work {
-    transition: 1s;
+    transition: .25s;
     background-color: var(--portfolioback-color);
     padding: 2rem;
     border: 2px solid black;
