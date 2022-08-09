@@ -10,6 +10,9 @@
     <!--ICONS TO USE FOR WESITE-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
+    <!--ANIMATION ON SCROLL-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Personal Portfolio Webpage - Kenny Nguyen</title>
 </head>
 <body>
@@ -61,7 +64,7 @@
             </svg>
         </div>
         <!--        ABOUT ME        -->
-        <div class="about_main_container">
+        <div class="about_main_container" data-aos="fade-down" data-aos-duration="900" data-aos-delay="290" data-aos-once="true">
             <section class="about section" id="about">
                 <h2 class="section-title">About Me</h2>
                 <div class="about_container bd-grid">
@@ -83,7 +86,7 @@
         <!--        SKILLS & RESUME        -->
         <section class="skills section" id="skills">
             <h2 class="section-title">Skills & Resume</h2>
-            <div class="skills_container bd-grid">
+            <div class="skills_container bd-grid" data-aos="fade" data-aos-duration="900" data-aos-delay="200" data-aos-once="true">
                 <div class="skill_part">
                     <img src="images/skills_logos_and_icons/c-plus-plus-logo-24.png">
                     <h1 class="skill_name">C++</h1>
@@ -113,7 +116,7 @@
         <section class="portfolio section" id="portfolio">
             <h2 class="section-title">Portfolio</h2>
             <div class="portfolio_container bd-grid">
-                <div class="portfolio_work">
+                <div class="portfolio_work" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300" data-aos-once="true">
                     <img src="images/portfolio_logos_and_icons/typingroyale_icon.png" class="portfolio_img">
                     <h2 class="portfolio_name">Typing Royale - Cutie Hack 2020</h2>
                     <div class="portfolio_access">
@@ -126,7 +129,7 @@
                         <a href="https://devpost.com/software/typing-royale" class="portfolio_button button" target="_blank">Devpost</a>
                     </div>
                 </div>
-                <div class="portfolio_work">
+                <div class="portfolio_work" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300" data-aos-once="true">
                     <img src="images/portfolio_logos_and_icons/codepen_icon_512x512.png" class="portfolio_img">
                     <h2 class="portfolio_name">CodePen Profile</h2>
                     <div class="portfolio_access">
@@ -138,7 +141,7 @@
                         <a href="https://codepen.io/Kengu" class="portfolio_button button" target="_blank" >Visit CodePen</a>
                     </div>
                 </div>
-                <div class="portfolio_work">
+                <div class="portfolio_work" data-aos="fade-right" data-aos-duration="900" data-aos-delay="300" data-aos-once="true">
                     <img src="images/portfolio_logos_and_icons/fcc_secondary_small.png" class="portfolio_img">
                     <h2 class="portfolio_name">freeCodeCamp Profile</h2>
                     <div class="portfolio_access">
@@ -146,7 +149,7 @@
                         <a href="https://www.freecodecamp.org/fcc467bc79d-78c5-417e-bf7c-65eda44faee8" class="portfolio_button button" target="_blank">Visit FCC Profile</a>
                     </div>
                 </div>
-                <div class="portfolio_work">
+                <div class="portfolio_work" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300" data-aos-once="true">
                     <img src="images/portfolio_logos_and_icons/gitHub_logo.png" class="portfolio_img">
                     <h2 class="portfolio_name">GitHub</h2>
                     <div class="portfolio_access">
@@ -184,5 +187,9 @@
     </main>
     <!--Main JS-->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
