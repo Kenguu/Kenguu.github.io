@@ -27,14 +27,14 @@ function linkAction() {
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
-
 //DARK MODE FUNCTION
 function darkLightFunction() {
     var element = document.body;
     element.classList.toggle("dark-theme");
     if (document.classList.contains("dark-theme")) {
         element.src = "images/sun-regular-24.png";
-    } else {
+    } 
+    else {
         element.src = "images/moon-regular-24.png";
     }
 }
