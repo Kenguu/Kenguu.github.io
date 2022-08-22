@@ -338,12 +338,14 @@ img {
 
 .about_img {
     justify-self: center;
+    padding: .75rem;
 }
 
 .about_img img {
-    width: 200px;
+    width: 250px;
+    transform: scale(107%);
     border-radius: .5rem;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 .about_info {
