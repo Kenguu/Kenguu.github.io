@@ -413,6 +413,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 3rem;
+}
+
+.skill_icon_font {
+   font-size: 3rem; 
 }
 
 .resume_section {
