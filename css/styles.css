@@ -295,7 +295,7 @@ img {
 .home_img img {
     max-width: 100%;
     height: auto;
-    width: auto\9;
+    width: auto;
 }
 
 /*      BUTTONS        */
@@ -691,7 +691,7 @@ img {
         margin-right: auto;
     }
     .home_img {
-        right: 10%;
+        right: 12%;
     }
 }
 
