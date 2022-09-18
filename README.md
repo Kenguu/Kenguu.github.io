@@ -6,7 +6,7 @@ Link to view full website: https://knytnguyen.github.io/
 ## Features of the Website:
 * Fully reactive webpage for different screen sizes and mobile adaptability
 * Light and dark mode functionality created through JavaScript
-* Scrolling animations as the use progresses through the webpage
+* Scrolling animations as the user progresses through the webpage
 * Ability to send emails and view files
 
 ## Programming Languages and Libaries:
