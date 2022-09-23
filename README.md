@@ -9,7 +9,7 @@ Link to view full website: https://knytnguyen.github.io/
 * Scrolling animations as the user progresses through the webpage
 * Ability to send emails and view files
 
-## Programming Languages and Libaries:
+## Programming Languages and Libraries:
 * HTML
 * CSS
 * JavaScript
